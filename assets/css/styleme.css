@@ -1,0 +1,90 @@
+* {
+    font: "Arial Black", Verdana, "Trebuchet MS", Georgia, Tahoma, "Courier New", "Times New Roman", sans-serif;
+    color: #fff;
+}
+
+body {
+    background-color: #595647;
+    color: #fff;
+    font-family: Arial, "Times New Roman";
+}
+
+h1,
+h2 {
+    color: #91c3fd;
+    font-family: "Trebuchet MS", Arial, sans-serif;
+    font-size: 54px;
+    font-weight: bold;
+}
+
+h2 {
+    font-size: 28px;
+    font-weight: bold;
+}
+
+p {
+    font-family: Verdana, sans-serif;
+    font-size: 16px;
+    line-height: 1.5;
+}
+
+ul li,
+ol li {
+    margin-bottom: 5px;
+}
+
+a {
+    color: #d26c6a;
+    text-decoration: underline;
+}
+
+a:visited {
+    color: #4c2b86;
+}
+
+a:link {
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+#movie-intro {
+    font-style: italic;
+}
+
+img {
+    background-color: #fff;
+    border: 1px solid #ccc;
+}
+
+h2 + p {
+    font-style: italic;
+}
+
+.image-container {
+    text-align: left;
+}
+
+.image-container img {
+    width: 200px;
+    height: 180px;
+}
+
+.highlight {
+    color: #d6cb87;
+    font-weight: bold;
+}
+
+.validator a {
+    text-decoration: none !important;
+}
+
+p::first-letter {
+    font-size: 1.5em;
+    font-weight: bold;
+    float: left;
+    margin: 0 5px 0 0;
+    line-height: 1;
+}
