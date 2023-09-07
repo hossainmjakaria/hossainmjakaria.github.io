@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="description" content="This is the homepage for Lab 3">
+    <meta name="keywords" content="HTML, CSS, WAP">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Fira+Code:wght@500&display=swap" rel="stylesheet">
+    <link href="assets/css/shopping-cart.css" type="text/css" rel="stylesheet">
+    <title>Lab 3</title>
+</head>
+
+<body>
+
+    <div id="header">
+        <img src="assets/images/logo.png" alt="Logo">
+        <p>Welcome, Mohammad Jakaria</p>
+        <button>Log Out</button>
+    </div>
+
+    <div id="content">
+        <div class="mb-4 products">
+            <p class="title mb-3">Product List</p>
+            <div>
+                <table>
+                    <thead>
+                        <tr>
+                            <th>Name</th>
+                            <th>Price</th>
+                            <th>Stock</th>
+                            <th class="width-100">Actions</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td>Node.js</td>
+                            <td>9.99</td>
+                            <td>8</td>
+                            <td class="text-center">
+                                <img src="assets/images/cart.png" alt="Add to Cart">
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>React</td>
+                            <td>19.99</td>
+                            <td>5</td>
+                            <td class="text-center">
+                                <img src="assets/images/cart.png" alt="Add to Cart">
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>Angular</td>
+                            <td>29.99</td>
+                            <td>13</td>
+                            <td class="text-center">
+                                <img src="assets/images/cart.png" alt="Add to Cart">
+                            </td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+        </div>
+
+        <div class="cart">
+            <p class="title mb-3">Your Shopping Cart</p>
+            <div>
+                <table>
+                    <thead>
+                        <tr>
+                            <th>Name</th>
+                            <th>Price</th>
+                            <th>Total</th>
+                            <th class="width-100">Quantity</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td>Node.js</td>
+                            <td>9.99</td>
+                            <td>9.99</td>
+                            <td>
+                                <div class="quantity">
+                                    <button>‒</button>
+                                    <input type="number" value="1">
+                                    <button>+</button>
+                                </div>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>React</td>
+                            <td>19.99</td>
+                            <td>19.99</td>
+                            <td>
+                                <div class="quantity">
+                                    <button>‒</button>
+                                    <input type="number" value="1">
+                                    <button>+</button>
+                                </div>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>Angular</td>
+                            <td>29.99</td>
+                            <td>29.99</td>
+                            <td>
+                                <div class="quantity">
+                                    <button>‒</button>
+                                    <input type="number" value="1">
+                                    <button>+</button>
+                                </div>
+                            </td>
+                        </tr>
+                    </tbody>
+                    <tfoot>
+                        <tr>
+                            <td colspan="4" class="text-right font-weight-bold">
+                                Total: 59.97
+                            </td>
+                        </tr>
+                    </tfoot>
+                </table>
+
+                <div class="checkout mt-4">
+                    <button>
+                        Place Order
+                    </button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div id="footer">
+        <div class="validator">
+            <a href="https://validator.w3.org/nu/?doc=https://hossainmjakaria.github.io/wap/shopping-cart.html">
+                <img src="https://mumstudents.org/cs472/2013-09/images/w3c-html.png" alt="HTML Validator">
+            </a>
+            <a href="https://jigsaw.w3.org/css-validator/validator?uri=https://hossainmjakaria.github.io/wap/assets/css/shopping-cart.css">
+                <img src="http://jigsaw.w3.org/css-validator/images/vcss" alt="CSS Validator">
+            </a>
+        </div>
+    </div>
+
+</body>
+
+</html>
