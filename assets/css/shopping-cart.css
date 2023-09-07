@@ -100,7 +100,7 @@ input {
 
 button:not(.quantity button) {
     border-radius: 5px;
-    background-color: #476464;
+    background-color: #800080;
     color: #fff;
     text-transform: uppercase;
     font-size: 12px;
@@ -167,8 +167,8 @@ input {
 }
 
 #content table tfoot td {
-    background-color: #dddddd;
-    color: #000;
+    /* background-color: #dddddd;
+    color: #000; */
     padding: 10px 15px;
 }
 
@@ -177,7 +177,7 @@ input {
 }
 
 #content .cart table thead th {
-    background-color: #8e7bbd !important;
+    background-color: #27115d !important;
 }
 
 .checkout {
