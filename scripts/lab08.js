@@ -55,17 +55,17 @@ Student.prototype.computeAverageGrade = function () {
     return this.grades.reduce((sum, current, index, array) => sum + current /
         array.length, 0);
 }
-const stu1 = new Student('AA', 'BB');
+const stu11 = new Student('AA', 'BB');
 stu1.inputNewGrade(87);
 stu1.inputNewGrade(96);
 stu1.inputNewGrade(86);
 stu1.inputNewGrade(82);
-const stu2 = new Student('CC', 'DD');
+const stu12 = new Student('CC', 'DD');
 stu2.inputNewGrade(89);
 stu2.inputNewGrade(92);
 stu2.inputNewGrade(80);
 stu2.inputNewGrade(70);
-const students2 = [stu1, stu2];
+const students2 = [stu11, stu12];
 const result2 = students.reduce((average, stu, index, array) => average +
     stu.computeAverageGrade() / array.length, 0);
 console.log(result);
