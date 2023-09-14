@@ -17,3 +17,5 @@ Lab - 6: https://hossainmjakaria.github.io/wap/scripts/lab06.js
 Lab - 7: https://hossainmjakaria.github.io/wap/scripts/lab07.js
 
 Lab - 8: https://hossainmjakaria.github.io/wap/scripts/lab08.js
+
+Lab - 9: https://hossainmjakaria.github.io/wap/scripts/lab09.js

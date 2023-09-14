@@ -104,8 +104,8 @@ console.log([7, 5, 2, 4, 3, 9].mysort());
 // linkedlist.remove(2);
 // linkedlist.print(); //Expected Result: LinkedList{1,3};
 
-let linkedlist = {};
-linkedlist.add = function (element) {
+let linkedList = {};
+linkedList.add = function (element) {
     if (this.value === undefined) {
         this.value = element;
         this.next = null;
@@ -117,7 +117,7 @@ linkedlist.add = function (element) {
         current.next = { value: element, next: null };
     }
 }
-linkedlist.remove = function (element) {
+linkedList.remove = function (element) {
     var current = this;
     var prev = null;
     while (current) {
@@ -135,7 +135,7 @@ linkedlist.remove = function (element) {
     }
     return false;
 }
-linkedlist.printHelper = function (list, result) {
+linkedList.printHelper = function (list, result) {
     if (list.next == null) {
         result += list.value;
         return result;
@@ -143,16 +143,16 @@ linkedlist.printHelper = function (list, result) {
     result += list.value + ',';
     return this.printHelper(list.next, result);
 }
-linkedlist.print = function () {
+linkedList.print = function () {
     let result = 'LinkedList{';
     result = this.printHelper(this, result);
     result += '}';
     console.log(result);
 }
 
-linkedlist.add(1);
-linkedlist.add(2);
-linkedlist.add(3);
-linkedlist.print(); // LinkedList{1,2,3}
-linkedlist.remove(3);
-linkedlist.print(); // LinkedList{1,3}
+linkedList.add(1);
+linkedList.add(2);
+linkedList.add(3);
+linkedList.print(); // LinkedList{1,2,3}
+linkedList.remove(3);
+linkedList.print(); // LinkedList{1,3}
