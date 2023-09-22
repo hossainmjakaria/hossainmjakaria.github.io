@@ -21,11 +21,3 @@ Lab - 8: https://hossainmjakaria.github.io/wap/scripts/lab08.js
 Lab - 9: https://hossainmjakaria.github.io/wap/scripts/lab09.js
 
 Lab - 10: https://hossainmjakaria.github.io/wap/scripts/lab10.js
-
-Lab - 11: https://hossainmjakaria.github.io/wap/scripts/lab11.js
-
-Lab - 12: https://hossainmjakaria.github.io/wap/scripts/lab12.js
-
-Lab - 13: https://hossainmjakaria.github.io/wap/scripts/lab13.js
-
-Lab - 14: https://hossainmjakaria.github.io/wap/scripts/lab14.js
